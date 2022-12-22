@@ -1,0 +1,10 @@
+/* Base Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Merriweather Sans, sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
