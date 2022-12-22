@@ -8,3 +8,242 @@ html{
     font-size: 16px;
     scroll-behavior: smooth;
 }
+/* Mobile And Non-Mobile Header */
+
+
+/* Not Mobile */
+.not-mobile{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    
+}
+.logo-text{
+    font-size: 18px;
+}
+.gray-logo-text{
+    color: gray;
+}
+.not-mobile-nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-function-text{
+    display: flex;
+    list-style: none;
+}
+.not-mobile-icons{
+    padding-left: 1rem;
+}
+
+/* Mobile */
+.mobile{
+    display: none;
+}
+/* Mobile Header Media Queries */
+/* @media (min-width:300px) and (max-width:411px){
+    .mobile{
+        display: flex;
+    }
+    .mobile-nav{
+        display: flex;
+    }
+    .mobile-icon-holder{
+        display: flex;
+        list-style: none;
+    }
+    .mobile-icon{
+        margin: 2rem;
+        height: 3.5px;
+    }
+    .not-mobile{
+        display: none;
+    }
+    .not-mobile-nav{
+        display: none;
+    }
+}
+@media (min-width:390px){
+    .mobile{
+        display: flex;
+    }
+    .mobile-nav{
+        display: flex;
+    }
+    .mobile-icon-holder{
+        display: flex;
+        list-style: none;
+    }
+    .mobile-icon{
+        margin: 2rem;
+        height: 3.5px;
+    }
+    .not-mobile{
+        display: none;
+    }
+    .not-mobile-nav{
+        display: none;
+    }
+}
+@media (min-width:412px) and (max-width:413px){
+   
+} */
+@media (min-width:320px) {
+    .mobile{
+        display: flex;
+        overflow-y: hidden;
+    }
+    .mobile-nav{
+        display: flex;
+        overflow-y: hidden;
+    }
+    .mobile-icon-holder{
+        display: flex;
+        list-style: none;
+        overflow-y: hidden;
+    }
+    .mobile-icon{
+        margin: 2rem;
+        margin-right: 1.5rem;
+    }
+    .not-mobile{
+        display: none;
+    }
+    .not-mobile-nav{
+        display: none;
+    }
+}
+@media (min-width:412px) and (max-width:414px){
+    .mobile{
+        display: flex;
+        overflow-y: hidden;
+    }
+    .mobile-nav{
+        display: flex;
+    }
+    .mobile-icon-holder{
+        display: flex;
+        list-style: none;
+    }
+    .mobile-icon{
+        margin: 2.3rem;
+        height: 3.5px;
+    }
+    .not-mobile{
+        display: none;
+    }
+    .not-mobile-nav{
+        display: none;
+    }
+}
+@media (min-width:480px)  {
+    .mobile{
+        display: flex;
+        overflow-y: hidden;
+    }
+    .mobile-nav{
+        display: flex;
+    }
+    .mobile-icon-holder{
+        display: flex;
+        list-style: none;
+    }
+    .mobile-icon{
+        margin: 2.2rem;
+        height: 3.5px;
+    }
+    .not-mobile{
+        display: none;
+    }
+    .not-mobile-nav{
+        display: none;
+    }
+}
+@media (min-width:600px)  { 
+.mobile{
+    display: flex;
+    overflow-y: hidden;
+}
+.mobile-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mobile-icon-holder{
+    display: flex;
+    list-style: none;
+    
+}
+.mobile-icon{
+    margin: 5.3rem;
+    height: 10px;
+}
+.not-mobile{
+    display: none;
+}
+.not-mobile-nav{
+    display: none;
+}}
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) {
+    .not-mobile{
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 24px;
+        
+    }
+    .logo-text{
+        font-size: 18px;
+    }
+    .gray-logo-text{
+        color: gray;
+    }
+    .not-mobile-nav{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .flex-function-text{
+        display: flex;
+        list-style: none;
+    }
+    .not-mobile-icons{
+        padding-left: 1rem;
+    }
+    .mobile{
+        display: none;
+    }
+}
+@media (min-width:1281px) {
+.not-mobile{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    
+}
+.logo-text{
+    font-size: 18px;
+}
+.gray-logo-text{
+    color: gray;
+}
+.not-mobile-nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-function-text{
+    display: flex;
+    list-style: none;
+}
+.not-mobile-icons{
+    padding-left: 1rem;
+}
+}
+
+
+
+
