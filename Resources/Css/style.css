@@ -291,3 +291,83 @@ html{
 .banner-content h1{
     display: inline;
 }
+/* Information Section About Colmar */
+#information {
+    display: flex;
+    padding: 2rem 0 0 1.5rem;
+}
+.information-main {
+    width: 60%;
+    padding-right: 1.5rem;
+    border-right: 1px solid #cfcfcf;
+}
+
+.information-main img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.information-main h2 {
+    display: inline;
+    font-size: 1.3rem;
+}
+.info-main-content {
+    padding-top: 0.5rem;
+    display: inline-block;
+}
+.credit-for-information {
+    font-size: 0.6rem;
+    padding-bottom: 20px;
+}
+.information-boxes {
+    width: 40%;
+}
+.image-container {
+    display: flex;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-content {
+    padding: 0 1rem;
+}
+
+.info-content p {
+    font-size: 0.9rem;
+}
+
+.info-content h4 {
+    display: inline;
+}
+.info-content a {
+    color: rgb(77, 77, 255);
+}
+.guest-container {
+    display: flex;
+    background-color: #cfcfcf;
+    padding: 1rem 0 1rem 1.5rem;
+}
+
+.not-mobile-image-info{
+    max-width: 35%;
+}
+
+#content-image {
+    max-width: 100%;
+}
+
+.mobile-image-info{
+    display: none;
+}
+
+.guest-container img {
+    max-width: 100%;
+    height: auto;
+}
+
