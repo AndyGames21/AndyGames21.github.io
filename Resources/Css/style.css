@@ -492,62 +492,78 @@ html{
     font-size: 0.75rem;
     margin-top: 0.5rem;
 }
+/* Thesis section */
+.thesis{
+    max-width: 100%;
+    padding: 2rem 0 2rem 1.5rem;
+}
 
+.thesis .center{
+    margin-bottom: 2rem;
+}
 
+.thesis h4{
+    display: inline;
+}
 
+.thesis p{
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
 
+.content-box{
+    display: flex;
+}
 
+.video-container{
+    width: 60%;
+    margin-right: 1.5rem;
+}
 
+.video-player{
+    margin-bottom: 1.5rem;
+}
 
+.video-player video{
+    width: 100%;
+    height: auto;
+}
 
+.thesis .image-container{
+    align-items: center;
+}
 
+.fisma-container{
+    display: flex;
+    background-color: #cfcfcf;
+    padding: 1rem 0 1rem 1.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
 
+.fisma-container img{
+    max-width: 100%;
+    height: auto;
+}
 
+/* Footer */
+footer{
+    display: flex;
+    font-size: 0.65rem;
+    font-family: Arial, Helvetica, sans-serif; 
+    justify-content: space-between;
+    border-top: 0.5px solid #cfcfcf;
+    position: relative;
+    top: 64px;
+    padding: 1rem 1.5rem 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-links{
+    float: right;
+}
+footer span{
+    color: white;
+}
 /* Media Queries For The Project */
 
 /* Banner/Learn Section */
@@ -698,5 +714,91 @@ html{
     .guest-container img {
         max-width: 100%;
         height: auto;
+    }
+}
+/* Course Section */
+@media only screen and (max-width: 480px) {
+    .courses {
+        display: block;
+        padding: 2rem 1rem;
+        background-color: #fff;
+        border-bottom: 0.5px solid #cfcfcf;
+    }
+
+    .course-boxes {
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .course-image, .course-text p {
+        display: none;
+    }
+
+
+    .course-container {
+        width: 100%;
+    }
+
+    .course-text {
+        background-color: #cfcfcf;
+        padding: 1rem 1rem 1.5rem 1rem;
+        margin: 0.5rem 0;
+    }
+
+    .course-text h4 {
+        display: inline;
+        text-align: center;
+    }
+
+    .course-text :hover {
+        color:rgb(77, 77, 255);
+        transition: color ease-in 300ms;
+    }
+}
+/*Thesis section */
+@media (max-width: 801px){
+    .thesis .information-boxes, .thesis .fisma-container{
+        display: none;
+    }
+
+    .thesis h4, .thesis p {
+        display: none;
+    }
+
+    .thesis {
+        padding: 2rem 0;
+    }
+
+    .content-box {
+        display: block;
+        width: 100%;
+    }
+
+    .video-container {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .video-player {
+        margin-bottom: 0;
+    }
+}
+/* Mobile footer */
+@media (max-width: 801px) {
+    .footer-links {
+        display: none;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+}
+/* adds margin, changes padding on courses box at under 830px wide browser */
+@media (min-width: 100px) and (max-width: 830px) {
+    .courses {
+        margin-top: 1rem;
+        max-width: 100%;
+        padding: 1.5rem 2rem;
     }
 }
