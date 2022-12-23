@@ -11,14 +11,14 @@
 <body>
    <header>
         <div class="not-mobile">
-            <a class="colmar-logo"><img src="./Resources/Images/ic-logo.svg" alt="colmar logo"></a>
+            <a class="colmar-logo" href="#"><img src="./Resources/Images/ic-logo.svg" alt="colmar logo"></a>
             <strong class="logo-text">COLMAR</strong><span class="gray-logo-text logo-text">ACADEMY</span>
             <nav class="not-mobile-nav">
                 <ul class="flex-function-text">
-                    <li class="not-mobile-icons">On Campus</li>
-                    <li class="not-mobile-icons">Online</li>
-                    <li class="not-mobile-icons">For Companies</li>
-                    <li class="not-mobile-icons">Sign In</li>
+                    <li class="not-mobile-icons"><a href="#">On Campus</a></li>
+                    <li class="not-mobile-icons"><a href="#">Online</a></li>
+                    <li class="not-mobile-icons"><a href="#">For Companies</a></li>
+                    <li class="not-mobile-icons"><a href="#">Sign In</a></li>
                 </ul>      
             </nav>
         </div>
@@ -34,29 +34,34 @@
         </div>
    </header>
     <section class="learn-section">
-        <div class="banner-image">
-            <img src="./Resources/Images/banner.jpg" alt="Students Studying"> 
-        </div>
-        <div class="banner-content">
-            <h1>Learn Something New Everyday</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="banner-section">
+            <div class="banner-image">
+                <img src="./Resources/Images/banner.jpg" alt="Students Studying">
+            </div>
+            <div class="banner-content">
+                <h1>Learn something new every day</h1>
+                <p class="banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a class="button-link" href="#"><div class="button">
+                    <p>Start here</p>
+                </div></a>
+            </div>
         </div>
    </section>
    <section>
     <div id="information">
         <div class="information-main">
-            <img src="./resources/images/information-main.jpg" alt="man reading a book outside">
+            <img src="./Resources/Images/information-main.jpg" alt="man reading a book outside">
             <h2>It doesn't hurt to keep practicing</h2>
             <p class="info-main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <p class="credit-for-information"><p>Emanuel, Sr. Strategist at Hiring.com</p></p>
         </div>
         <div class="information-boxes">
             <div class="image-container">
-                <div class="not-mobile-image-info">
-                    <img src="./resources/images/information-orientation.jpg" alt="Colmar orientation scene">
+                <div class="content-image">
+                    <img src="./Resources/Images/information-orientation.jpg" alt="Colmar orientation scene">
                 </div>
-                <div class="mobile-image-info">
-                    <img src="./resources/images/information-orientation-mobile.jpg" alt="Colmar orientation scene">
+                <div class="content-image-mobile">
+                    <img src="./Resources/Images/information-orientation-mobile.jpg" alt="Colmar orientation scene">
                 </div>
                 <div class="info-content">
                     <h4>Orientation date</h4>
@@ -65,11 +70,11 @@
                 </div>
             </div>
             <div class="image-container">
-                <div class="not-mobile-image-info">
-                    <img src="resources/images/information-campus.jpg" alt="Colmar campus scene">
+                <div class="content-image">
+                    <img src="./Resources/Images/information-campus.jpg" alt="Colmar campus scene">
                 </div>
-                <div class="mobile-image-info">
-                    <img src="resources/images/information-campus-mobile.jpg" alt="Colmar orientation scene">
+                <div class="content-image-mobile">
+                    <img src="./Resources/Images/information-campus-mobile.jpg" alt="Colmar orientation scene">
                 </div>
                 <div class="info-content">
                     <h4>Our campus</h4>
@@ -79,15 +84,82 @@
             </div>
             <div class="guest-container">
                 <div id="content-image">
-                    <img src="resources/images/information-guest-lecture.jpg" alt="Oliver Sack">
+                    <img src="./Resources/Images/information-guest-lecture.jpg" alt="Oliver Sack">
                 </div>
-                <div class="mobile-image-info">
-                    <img src="resources/images/information-guest-lecture-mobile.jpg" alt="Colmar orientation scene">
+                <div class="content-image-mobile">
+                    <img src="./Resources/Images/information-guest-lecture-mobile.jpg" alt="Colmar orientation scene">
                 </div>
                 <div class="info-content">
                     <h4>Our guest lecture</h4>
                     <p>Join a keynote with Oliver Sack about music in medical treatment</p>
                     <p><a href="#" class="info">Read more</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="course-section">
+    <div class="courses">
+        <div class="center"><h2>Start learning</h2></div>
+        <div class="course-boxes">
+            <div class="course-container">
+                <div class="course-image">
+                    <img src="resources/images/course-software.jpg" alt="Software engineering">
+                </div>
+                <div class="course-text">
+                    <a href="#"><h4>Software engineering</h4></a>
+                    <p>COURSES</p>
+                    <p>Web Development, Mobile Development, iOT, APIs</p>
+                </div>
+            </div>
+            <div class="course-container">
+                <div class="course-image">
+                    <img src="resources/images/course-computer-art.jpg" alt="Computer art">
+                </div>
+                <div class="course-text">
+                    <a href="#"><h4>Computer art</h4></a>
+                    <p>COURSES</p>
+                    <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                </div>
+            </div>
+            <div class="course-container">
+                <div class="course-image">
+                    <img src="resources/images/course-design.jpg" alt="Design">
+                </div>
+                <div class="course-text">
+                    <a href="#"><h4>Design</h4></a>
+                    <p>COURSES</p>
+                    <p>User Experience Design, User Research, Visual Design</p>
+                </div>
+            </div>
+            <div class="course-container">
+                <div class="course-image">
+                    <img src="resources/images/course-data.jpg" alt="Data">
+                </div>
+                <div class="course-text">
+                    <a href="#"><h4>Data</h4></a>
+                    <p>COURSES</p>
+                    <p>Data Science, Big Data, SQL, Data Visualization</p>
+                </div>
+            </div>
+            <div class="course-container">
+                <div class="course-image">
+                    <img src="resources/images/course-business.jpg" alt="Business illustration">
+                </div>
+                <div class="course-text">
+                    <a href="#"><h4>Business</h4></a>
+                    <p>COURSES</p>
+                    <p>Product Development, Business Development, Startup</p>
+                </div>
+            </div>
+            <div class="course-container">
+                <div class="course-image">
+                    <img src="resources/images/course-marketing.jpg" alt="Marketing illustration">
+                </div>
+                <div class="course-text">
+                    <a href="#"><h4>Marketing</h4></a>
+                    <p>COURSES</p>
+                    <p>Analytics, Content Marketing, Mobile Marketing</p>
                 </div>
             </div>
         </div>
